@@ -1,0 +1,183 @@
+
+/* BASIC SETUP */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar .navbar-brand {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+    color: #fff;
+    transition: all .4s ease-in;
+}
+
+.navbar-nav .nav-link:hover {
+    display: inline-block;
+    color: #f6ff7d;
+}
+
+.active a {
+    display: inline-block;
+    color: #f6ff7d !important;
+    border-bottom: 2px solid #f6ff7d;
+}
+
+.navbar-toggler .fas {
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+  
+header .overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: 0.7;
+z-index: 1;
+}
+
+/* INNER CONTENT */
+.inner-content {
+    padding-top: 8rem;
+}
+
+.inner-content .heading-1,
+.inner-content .heading-2,
+.inner-content .heading-3 {
+    font-size: 2.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem;
+    padding: 0.5rem 3rem;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.inner-content .heading-1 {
+    color: #5eff8f;
+}
+
+.inner-content .heading-2 {
+    color: #8fb4ff;
+    margin-left: 14rem;
+}
+
+.inner-content .heading-3 {
+    color: #f6ff7d;
+    margin-left: 4rem;
+}
+
+.home-heading {
+    color: #5eff8f;
+    padding-left: 1.5rem;
+    border-left: 4px solid #8fb4ff;
+}
+
+.home-description {
+    color: #dbdbdb;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+
+
+/* RESPONSIVE */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .inner-content {
+        padding-top: 2rem;
+    }
+
+    .inner-content .heading-1,
+    .inner-content .heading-2,
+    .inner-content .heading-3 {
+        font-size: 1.8rem;
+    }
+
+    .home-heading {
+        margin-top: 3rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .inner-content {
+        padding-top: 8rem;
+    }
+
+    .inner-content .heading-1,
+    .inner-content .heading-2,
+    .inner-content .heading-3 {
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+
+    .home-heading {
+        margin-top: 1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .inner-content .heading-2 {
+        color: #8fb4ff;
+        margin-left: 14rem;
+    }
+    
+    .inner-content .heading-3 {
+        color: #f6ff7d;
+        margin-left: 4rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
