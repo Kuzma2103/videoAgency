@@ -204,6 +204,7 @@ select:-webkit-autofill:focus {
   border: 1px solid #5eff8f;
   -webkit-text-fill-color: #f6ff7d !important;
   -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  box-shadow: 0 0 0px 1000px #000 inset;
   transition: all 5000s ease-in-out 0s;
 }
 
