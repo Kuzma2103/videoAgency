@@ -37,7 +37,7 @@
                         <a href="service.html" class="nav-link">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
+                            <a href="contact.html" class="nav-link nav-contact" data-toggle="modal" data-target="#contact-modal">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,15 +52,42 @@
             </div>
             <div class="col-md-6 mt-md-0 mt-5 pl-small">
                 <h2 class="big-heading">Contact Us?</h2>
-                <p class="subheading">If you want to contact us, please do...</p>
-                <a href="contact.html">
-                    <button class="contact-button">Contact Us</button>
-                </a>
+                <p class="subheading">If you want to contact us, please do...</p>                
+                <button class="contact-button" data-toggle="modal" data-target="#contact-modal">Contact Us</button>                
             </div>
         </div>        
     </div>
 </header>
 
+<!-- CONTACT MODAL -->
+<div class="modal fade" id="contact-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Do you have question?</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">                        
+                        <input type="text" class="form-control input" placeholder="Name">
+                    </div>
+                    <div class="form-group">                        
+                        <input type="email" class="form-control input" placeholder="Email">
+                    </div>
+                    <div class="form-group">                        
+                        <textarea cols="30" rows="10" class="form-control input" placeholder="Enter your message"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="submit-button btn-block">Submit</button>
+            </div>
+        </div>
+    </div>
+</div><!-- END CONTACT MODAL -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
