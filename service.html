@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Titillium+Web:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Service | videoAgency</title>
+</head>
+<body>    
+
+<header>
+    <div class="overlay"></div>
+    <video playsinline autoplay muted loop>
+        <source src="./video/cover-bg.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a href="index.html" class="navbar-brand">videoAgency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="service.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-lg-0">
+                        <a href="contact.html" class="nav-link nav-contact" data-toggle="modal" data-target="#contact-modal">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>    
+    <div class="container inner-service-content">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-4">
+                <i class="fas fa-cog fa-2x mb-2"></i>
+                <h3 class="mb-3">Service 1</h3>
+                <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, dolore.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-4">
+                <i class="fas fa-cog fa-2x mb-2"></i>
+                <h3 class="mb-3">Service 1</h3>
+                <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, dolore.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-4">
+                <i class="fas fa-cog fa-2x mb-2"></i>
+                <h3 class="mb-3">Service 1</h3>
+                <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, dolore.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center mb-4">
+                <i class="fas fa-cog fa-2x mb-2"></i>
+                <h3 class="mb-3">Service 1</h3>
+                <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, dolore.</p>
+            </div>
+        </div> 
+        <div class="row py-5">
+            <div class="col-md-6 p-5 d-none d-md-inline-block">                
+                <img class="img-fluid green-border" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg" alt="video" data-toggle="modal" data-target="#video-modal-1">
+            </div>
+            <div class="col-md-6 p-5 d-none d-md-inline-block">                
+                <img class="img-fluid blue-border" src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg" alt="video" data-toggle="modal" data-target="#video-modal-2">
+            </div>
+        </div>     
+    </div>
+</header>
+
+<!-- CONTACT MODAL -->
+<div class="modal fade" id="contact-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Do you have question?</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">                        
+                        <input type="text" class="form-control input" placeholder="Name">
+                    </div>
+                    <div class="form-group">                        
+                        <input type="email" class="form-control input" placeholder="Email">
+                    </div>
+                    <div class="form-group">                        
+                        <textarea cols="30" rows="10" class="form-control input" placeholder="Enter your message"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="submit-button btn-block">Submit</button>
+            </div>
+        </div>
+    </div>
+</div><!-- END CONTACT MODAL -->
+
+
+<!-- VIDEO MODALS -->
+    <!-- video-1 -->
+    <div class="modal fade" id="video-modal-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe src="https://www.youtube.com/embed/A3PDXmYoF5U" frameborder="0" class="embed-responsive-item" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <span class="h4 mr-4">Spread the word!</span>
+                    <a href="https://www.facebook.com/" class="btn-fb" type="button">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="btn-in" type="button">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" class="btn-tw" type="button">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="btn-li" type="button">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end video-1  -->
+
+    <!-- video-2 -->
+    <div class="modal fade" id="video-modal-2">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe src="https://www.youtube.com/embed/wTcNtgA6gHs" frameborder="0" class="embed-responsive-item" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <span class="h4 mr-4">Spread the word!</span>
+                    <a href="https://www.facebook.com/" class="btn-fb" type="button">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="btn-in" type="button">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" class="btn-tw" type="button">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="btn-li" type="button">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end video-2  -->
+
+<!-- END VIDEO MODALS -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>

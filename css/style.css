@@ -11,6 +11,20 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+img {
+    cursor: pointer;
+}
+
+.green-border {
+    border: 2px solid #5eff8f;
+}
+.blue-border {
+    border: 2px solid #8fb4ff;
+}
+.yeloow-border {
+    border: 2px solid #f6ff7d;
+}
+
 /* NAVBAR */
 .navbar .navbar-brand {
     color: #fff;
@@ -103,9 +117,7 @@ z-index: 1;
     border-radius: 6px;
 }
 
-.inner-content {
-    padding: 8rem 2rem;
-}
+
 
 .inner-content .heading-1 {
     color: #5eff8f;
@@ -172,6 +184,37 @@ z-index: 1;
     border: none;
     outline: none;
 }
+
+/* SERVICE PAGE  */
+.inner-service-content {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.inner-service-content h3 {
+    font-size: 1rem;
+    color: #f6ff7d;
+}
+
+.inner-service-content .service-desc {
+    font-size: 0.8rem;
+}
+
+.inner-service-content i {
+    color: #8fb4ff;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* CONTACT MODAL */
 .modal-body,
@@ -255,7 +298,9 @@ select:-webkit-autofill:focus {
         margin-left: 5rem;
     }
     
-    
+    .inner-content {
+        padding: 3rem 2rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -269,6 +314,19 @@ select:-webkit-autofill:focus {
     }
     .pl-small {
         padding-left: 5rem;
+    }
+
+    .inner-content,
+    .inner-service-content {
+        padding: 8rem 2rem;
+    }
+
+    .inner-service-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .inner-service-content .service-desc {
+        font-size: 1rem;
     }
 }
 
@@ -297,6 +355,14 @@ select:-webkit-autofill:focus {
 
     .about-description {
         font-size: 1.2rem !important;
+    }
+
+    .inner-service-content h3 {
+        font-size: 2.3rem;
+    }
+    
+    .inner-service-content .service-desc {
+        font-size: 1.2rem;
     }
 }
 
