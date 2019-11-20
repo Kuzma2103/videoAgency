@@ -205,7 +205,15 @@ z-index: 1;
     color: #8fb4ff;
 }
 
+.fab {
+    margin-right: 1rem;
+    color: #5eff8f;
+    transition: all .3s ease-in;
+}
 
+.fab:hover {
+    color: #8fb4ff;
+}
 
 
 
